@@ -1,4 +1,6 @@
 class Athlete < ApplicationRecord
+  scope :active, -> { where(:active => true)}
+  # Ex:- scope :active, -> {where(:active => true)}
   validates :name , presence: true , length: {minimum:3 , maximum:30}
   validates :email , presence: true , uniqueness: true , length: {minimum:10, maximum:50}
   validates :address , presence: true , length: {minimum:10, maximum:100}
