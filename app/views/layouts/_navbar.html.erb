@@ -8,8 +8,9 @@
       <%= link_to "Sign up", new_user_registration_path, class: "nav-link #{'active font-weight-bold' if current_page?(new_user_registration_path)}" %>
       
       <%= link_to "Log in", new_user_session_path, class: "nav-link #{'active font-weight-bold' if current_page?(new_user_session_path)}" %>
-      <%#<a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
+      <%= link_to "Athletes", new_athlete_path, class: "nav-link #{'active font-weight-bold' if current_page?(new_user_session_path)}" %>
+
+      <%#<a class="nav-item nav-link" href="#">Pricing</a>
       <a class="nav-item nav-link disabled" href="#">Disabled</a>%>
     </div>
   </div>
