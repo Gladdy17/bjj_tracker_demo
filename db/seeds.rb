@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+1000.times do
+    Athlete.create(name: Faker::Name.name, email: Faker::Internet.email, address: Faker::Address.full_address , phone: Faker::PhoneNumber.phone_number, weight: Faker::Number.within(range: 100..200))
+end

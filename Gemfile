@@ -76,3 +76,5 @@ gem "cssbundling-rails", "~> 1.3"
 gem "jsbundling-rails", "~> 1.2"
 
 gem "jquery-rails", "~> 4.6"
+
+gem "faker", "~> 3.2"
