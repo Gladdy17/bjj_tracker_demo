@@ -1,7 +1,8 @@
 FactoryBot.define do
   factory :register do
-    First_Name { "Gladdy" }
-    Last_Name { "Pereira" }
-    Date_of_Birth { "2023-12-05" }
+    First_Name { "MyString" }
+    Last_Name { "MyString" }
+    Academy { "MyString" }
+    Belt { "MyString" }
   end
 end

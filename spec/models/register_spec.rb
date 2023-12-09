@@ -1,11 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe Register, type: :model do 
-  described 'validations' do 
-    let (:Register) { Register.new }
-
-      it 'has a invalid name' do 
-        expect(Register).not_to be_valid
-      end
- 
+RSpec.describe Register, type: :model do
+  pending "add some examples to (or delete) #{__FILE__}"
 end

@@ -3,7 +3,8 @@ class CreateRegisters < ActiveRecord::Migration[7.1]
     create_table :registers do |t|
       t.string :First_Name
       t.string :Last_Name
-      t.date :Date_of_Birth
+      t.string :Academy
+      t.string :Belt
 
       t.timestamps
     end
